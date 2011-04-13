@@ -1,0 +1,2 @@
+{variables, [{vsn, "0.1.0"}]}.
+{template, "vsn", "src/vsn"}.

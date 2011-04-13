@@ -1,0 +1,4 @@
+{variables, [{content_translators, [{"application/json", "application/x-erlang-binary", {xriak_kv_wm_raw, to_erlang_term}},
+                                    {"application/x-erlang-binary", "application/json", {xriak_kv_wm_raw, to_erlang_term}},
+                                    {"application/xml", "application/x-erlang-binary", {content_type_converters, convert}},
+                                    {"application/x-erlang-binary", "application/xml", {content_type_converters, convert}}]}]}.
